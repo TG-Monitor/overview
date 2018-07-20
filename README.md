@@ -1,4 +1,4 @@
-# TG-Monitor Repository Overview
+# Repositories Overview
 
 ## Core
 
