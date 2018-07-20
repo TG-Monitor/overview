@@ -22,10 +22,10 @@
 
 ## Detached CLI Application
 
-- [tgmcd-rabbitmq-listener](https://github.com/TG-Monitor/tgmcd-rabbitmq-listener)
-- [tgmcd-rabbitmq-monitor-facade](https://github.com/TG-Monitor/tgmcd-rabbitmq-monitor-facade)
-- [tgmcd-main-monitor](https://github.com/TG-Monitor/tgmcd-main-monitor)
-- [tgmcd-main-cli](https://github.com/TG-Monitor/tgmcd-main-cli)
+- [tgmdc-rabbitmq-listener](https://github.com/TG-Monitor/tgmdc-rabbitmq-listener)
+- [tgmdc-rabbitmq-monitor-facade](https://github.com/TG-Monitor/tgmdc-rabbitmq-monitor-facade)
+- [tgmdc-main-monitor](https://github.com/TG-Monitor/tgmdc-main-monitor)
+- [tgmdc-main-cli](https://github.com/TG-Monitor/tgmdc-main-cli)
 - [app-dc-monitor-dist](https://github.com/TG-Monitor/app-dc-monitor-dist)
 - [app-dc-cli-dist](https://github.com/TG-Monitor/app-dc-cli-dist)
 - [app-dc-docker](https://github.com/TG-Monitor/app-dc-docker)
