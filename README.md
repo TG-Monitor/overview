@@ -36,7 +36,7 @@
 ### Repository Naming
 
 - `tgm-*`: core component
-- `tgm<X>-*`: application-specfic component, where `<X>` is the application identifier (see below)
+- `tgm<X>-*`: application-specific component, where `<X>` is the application identifier (see below)
 - `app-*`: application-level repository (distribution package, Dockerfile, documentation, etc.)
 
 ### Application Identifiers
