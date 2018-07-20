@@ -1,21 +1,6 @@
 # TG-Monitor Repository Overview
 
-## Introduction
-
-### Repository Naming
-
-- `tgm-*`: core component
-- `tgm<X>-*`: application-specfic component, where `<X>` is the application identifier (see below)
-- `app-*`: application-level repository (distribution package, Dockerfile, documentation, etc.)
-
-### Application Identifiers
-
-- `c`: CLI Application
-- `cd`: Detached CLI Application
-
-## Repositories
-
-### Core
+## Core
 
 - [tgm-servicelocator](https://github.com/TG-Monitor/tgm-servicelocator)
 - [tgm-entities](https://github.com/TG-Monitor/tgm-entities)
@@ -27,7 +12,7 @@
 - [tgm-notification](https://github.com/TG-Monitor/tgm-notification)
 - [tgm-servicelocator-instances](https://github.com/TG-Monitor/tgm-servicelocator-instances)
 
-### CLI Application
+## CLI Application
 
 - [tgmc-cli](https://github.com/TG-Monitor/tgmc-cli)
 - [tgmc-main](https://github.com/TG-Monitor/tgmc-main)
@@ -35,7 +20,7 @@
 - [app-docker-c](https://github.com/TG-Monitor/app-docker-c)
 - [app-doc-c](https://github.com/TG-Monitor/app-doc-c)
 
-### Detached CLI Application
+## Detached CLI Application
 
 - [tgmcd-rabbitmq-listener](https://github.com/TG-Monitor/tgmcd-rabbitmq-listener)
 - [tgmcd-rabbitmq-monitor-facade](https://github.com/TG-Monitor/tgmcd-rabbitmq-monitor-facade)
@@ -45,4 +30,17 @@
 - [app-dist-cd-cli](https://github.com/TG-Monitor/app-dist-cd-cli)
 - [app-docker-cd](https://github.com/TG-Monitor/app-docker-cd)
 - [app-doc-cd](https://github.com/TG-Monitor/app-doc-cd)
+
+## Comments
+
+### Repository Naming
+
+- `tgm-*`: core component
+- `tgm<X>-*`: application-specfic component, where `<X>` is the application identifier (see below)
+- `app-*`: application-level repository (distribution package, Dockerfile, documentation, etc.)
+
+### Application Identifiers
+
+- `c`: CLI Application
+- `cd`: Detached CLI Application
 
