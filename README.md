@@ -16,9 +16,9 @@
 
 ## Application Bundles and Main Components
 
-- [tg-monitor-cli](https://github.com/TG-Monitor/tg-monitor-cli)
+- [bundle-cli](https://github.com/TG-Monitor/bundle-cli)
     - [tgm-main-cli](https://github.com/TG-Monitor/tgm-main-cli)
-- [tg-monitor-cli-split](https://github.com/TG-Monitor/tg-monitor-cli-split)
+- [bundle-cli-split](https://github.com/TG-Monitor/bundle-cli-split)
     - [tgm-main-cli-split-core](https://github.com/TG-Monitor/tgm-main-split-core)
     - [tgm-main-cli-split-cli](https://github.com/TG-Monitor/tgm-main-split-cli)
 
