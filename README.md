@@ -1,8 +1,7 @@
 # Repositories Overview
 
-## Core
+## Components
 
-- [tgm-servicelocator](https://github.com/TG-Monitor/tgm-servicelocator)
 - [tgm-entities](https://github.com/TG-Monitor/tgm-entities)
 - [tgm-monitor](https://github.com/TG-Monitor/tgm-monitor)
 - [tgm-monitor-facade](https://github.com/TG-Monitor/tgm-monitor-facade)
@@ -10,33 +9,27 @@
 - [tgm-telegram](https://github.com/TG-Monitor/tgm-telegram)
 - [tgm-matching](https://github.com/TG-Monitor/tgm-matching)
 - [tgm-notification](https://github.com/TG-Monitor/tgm-notification)
+- [tgm-cli](https://github.com/TG-Monitor/tgm-cli)
+- [tgm-ipc](https://github.com/TG-Monitor/tgm-ipc)
+- [tgm-servicelocator](https://github.com/TG-Monitor/tgm-servicelocator)
 - [tgm-servicelocator-instances](https://github.com/TG-Monitor/tgm-servicelocator-instances)
 
-## CLI Application
+## Application Bundles and Main Components
 
-- [tgmc-cli](https://github.com/TG-Monitor/tgmc-cli)
-- [tgmc-main](https://github.com/TG-Monitor/tgmc-main)
-- [app-cli](https://github.com/TG-Monitor/app-cli)
+- [tg-monitor-cli](https://github.com/TG-Monitor/tg-monitor-cli)
+    - [tgm-main-cli](https://github.com/TG-Monitor/tgm-main-cli)
+- [tg-monitor-cli-split](https://github.com/TG-Monitor/tg-monitor-cli-split)
+    - [tgm-main-cli-split-core](https://github.com/TG-Monitor/tgm-main-split-core)
+    - [tgm-main-cli-split-cli](https://github.com/TG-Monitor/tgm-main-split-cli)
 
-## Detached CLI Application
+## Miscellaneous
 
-- [tgmdc-rabbitmq-listener](https://github.com/TG-Monitor/tgmdc-rabbitmq-listener)
-- [tgmdc-rabbitmq-monitor-facade](https://github.com/TG-Monitor/tgmdc-rabbitmq-monitor-facade)
-- [tgmdc-main-monitor](https://github.com/TG-Monitor/tgmdc-main-monitor)
-- [tgmdc-main-cli](https://github.com/TG-Monitor/tgmdc-main-cli)
-- [app-detached-monitor](https://github.com/TG-Monitor/app-detached-monitor)
-- [app-detached-cli](https://github.com/TG-Monitor/app-detached-cli)
+- [docker-base](https://github.com/TG-Monitor/tgm-main-split-cli): base for application-specific Docker images
+- [overview](https://github.com/TG-Monitor/overview): this repository
 
 ## Comments
 
 ### Repository Naming
 
-- `tgm-*`: core component
-- `tgm<X>-*`: application-specific component, where `<X>` is the application identifier (see below)
-- `app-*`: application bundle repository (executable, Dockerfile, documentation, etc.)
-
-### Application Identifiers
-
-- `c`: CLI Application
-- `dc`: Detached CLI Application
-
+- `tgm-*`: component
+- `tg-monitor-*`: application bundle repository (executables, Dockerfile, documentation, etc.)
