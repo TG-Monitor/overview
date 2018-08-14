@@ -10,17 +10,21 @@
 - [tgm-matching](https://github.com/TG-Monitor/tgm-matching)
 - [tgm-notification](https://github.com/TG-Monitor/tgm-notification)
 - [tgm-cli](https://github.com/TG-Monitor/tgm-cli)
-- [tgm-ipc](https://github.com/TG-Monitor/tgm-ipc)
+- [tgm-ipc-api](https://github.com/TG-Monitor/tgm-ipc-api)
+- [tgm-ipc-ui](https://github.com/TG-Monitor/tgm-ipc-ui)
+- [tgm-ipc-core](https://github.com/TG-Monitor/tgm-ipc-core)
 - [tgm-servicelocator](https://github.com/TG-Monitor/tgm-servicelocator)
 - [tgm-servicelocator-instances](https://github.com/TG-Monitor/tgm-servicelocator-instances)
+- [tgm-logincodeprompt](https://github.com/TG-Monitor/tgm-logincodeprompt)
 
 ## Application Bundles and Main Components
 
+- [bundle-core](https://github.com/TG-Monitor/bundle-core)
+    - [tgm-main-core](https://github.com/TG-Monitor/tgm-main-core)
 - [bundle-cli](https://github.com/TG-Monitor/bundle-cli)
     - [tgm-main-cli](https://github.com/TG-Monitor/tgm-main-cli)
-- [bundle-cli-split](https://github.com/TG-Monitor/bundle-cli-split)
-    - [tgm-main-cli-split-core](https://github.com/TG-Monitor/tgm-main-split-core)
-    - [tgm-main-cli-split-cli](https://github.com/TG-Monitor/tgm-main-split-cli)
+- [bundle-monolith](https://github.com/TG-Monitor/bundle-monolith)
+    - [tgm-main-monolith](https://github.com/TG-Monitor/tgm-main-monolith)
 
 ## Miscellaneous
 
